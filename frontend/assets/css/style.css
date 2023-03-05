@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url('../images/one.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color: #000000;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover {background: #eee;}
+
+.success {color: green;}
+
+.info {color: dodgerwhite;}
+
+.warning {color: white;}
+
+.danger {color: white;}
+
+.default {color: white;}
+
+.container {
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.contain {
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 12%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+
+.row {
+    display: flex;
+    height: 50%;
+    align-items: center;
+}
+
+.col {
+    flex-basis: 70%;
+}
+
+h1 {
+    color:#fff;
+    font-size: 80px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 50px;
+    position: absolute; top: 37; left: 100
+}
+
+h4 {
+    color:white;
+}
+
+p {
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+}
+
+p2 {
+    color:white;
+    font-size: 19px;
+    line-height: 20px;
+}
+
+.card {
+    width: 450;
+    height: 350;
+    border-radius: 20px;
+    margin: 70px ;
+    transition: transform 0.5s;
+}
+
+.card1 {
+    background-image: url('../images/three.jpg');
+}
+
+.card:hover{
+    transform: translateY(-10px);
+}
+
+.button {
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+
+.cardd {
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px ;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.cardd1 {
+    background-image: url('../images/ameiyy.jpg');
+}
+
+.cardd2 {
+    background-image: url('../images/jules.jpg');
+}
+
+.cardd3 {
+    background-image: url('../images/sanjay.jpg');
+}
+
+.cardd4 {
+    background-image: url('../images/akshit.jpg');
+}
+
+.cardd:hover{
+    transform: translateY(-10px);
+}

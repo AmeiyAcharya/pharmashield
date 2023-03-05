@@ -20,4 +20,4 @@ Ultimately, our project represents a significant step forward in the fight again
 - Solidity - To code the contract
 - IPFS - To publish the source code and metadata such that it allows for easier contract adoption (debugging, auditing)
 - Replit - To host the frontend (HTML5 and CSS)
-- Hardhat & Truffle - To deploy the contracts and integrate it with the frontend
+- Truffle - To deploy the contracts and integrate it with the frontend
